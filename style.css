@@ -1,6 +1,14 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .pulse-anim{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-color: black;
+    margin: 100px auto 0;
+    box-shadow: 0 0 0 0 #000;
+    animation: pulse 1.3s infinite;
 }
